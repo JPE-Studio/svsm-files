@@ -5,7 +5,7 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
-    "start": "npm run build && node server.js",
+    "start": "node server.js",
     "typecheck": "tsc"
   },
   "dependencies": {
