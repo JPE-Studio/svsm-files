@@ -5,18 +5,22 @@
   "scripts": {
     "build": "remix vite:build",
     "dev": "remix vite:dev",
+    "start": "npm run build && node server.js",
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@remix-run/express": "^2.15.0",
     "@remix-run/node": "2.12.1",
     "@remix-run/react": "2.12.1",
     "@remix-run/server-runtime": "2.12.1",
+    "@webstudio-is/image": "0.189.0",
     "@webstudio-is/react-sdk": "0.189.0",
+    "@webstudio-is/sdk": "0.189.0",
+    "@webstudio-is/sdk-components-react": "0.189.0",
     "@webstudio-is/sdk-components-react-radix": "0.189.0",
     "@webstudio-is/sdk-components-react-remix": "0.189.0",
-    "@webstudio-is/sdk-components-react": "0.189.0",
-    "@webstudio-is/image": "0.189.0",
-    "@webstudio-is/sdk": "0.189.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.1",
     "isbot": "^5.1.17",
     "react": "18.3.0-canary-14898b6a9-20240318",
     "react-dom": "18.3.0-canary-14898b6a9-20240318"
